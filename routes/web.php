@@ -114,6 +114,17 @@ Route::group(['prefix' => 'user'], function () {
 
     Route::group(['middleware' => 'guest'], function () {
 
+        // // 登録
+        // Route::get('/signup', [
+        //     'uses' => 'UserController@getSignup',
+        //     'as' => 'user.signup'
+        // ]);
+
+        // Route::post('/signup', [
+        //     'uses' => 'UserController@postSignup',
+        //     'as' => 'user.signup'
+        // ]);
+
         // ---------------------------------------------------------
         Route::get('/regUser', [
             'uses' => 'UserController@getregUser',
@@ -137,6 +148,17 @@ Route::group(['prefix' => 'user'], function () {
             'as' => 'user.login'
         ]);
 
+
+
+        // Route::get('/signin', [
+        //     'uses' => 'UserController@getSignin',
+        //     'as' => 'user.signin'
+        // ]);
+
+        // Route::post('/signin', [
+        //     'uses' => 'UserController@postSignin',
+        //     'as' => 'user.signin'
+        // ]);
     });
 
 
