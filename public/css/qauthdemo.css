@@ -1,0 +1,64 @@
+.page-heading {
+    font-size: 36px;
+    border-bottom: 1.5px #ccc;
+    border-bottom-style: solid;
+    border-top: 0 none;
+    padding: 16px 0 12px;
+    margin: 0 16px 48px;
+}
+
+#svgicon {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.icon {
+    text-align: center;
+    font-size: 70px;
+    color: #e7e7e7;
+}
+
+.icon svg {
+    vertical-align: middle;
+}
+
+.cb {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+}
+
+.icon-bg {
+    fill: #d4d4d5;
+}
+
+.icon-with-bg {
+    fill: #fff;
+}
+
+.disbleBgGreen{
+    background:rgb(183, 238, 190)!important;
+    color:#0000ff!important;
+}
+
+.disbleFgRed{
+    background:#ff0000!important;
+    color:#fff!important;
+}
+
+.row{
+    margin-top: 15px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    vertical-align:middle;
+    /* Set the fixed height of the footer here */
+    height: 30px;
+    background-color: #d1def8!important;
+}
