@@ -1,4 +1,4 @@
-# demo1.q-auth.com
+# QRCODE Quick authentication
 
 QRCODE Quick authentication
 
