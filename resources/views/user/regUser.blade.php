@@ -40,12 +40,12 @@
         </div>
 
         <div style="text-align: center;margin:20px;">
-          <a href="https://itunes.apple.com/jp/genre/ios-仕事効率化/id6007?mt=8" target="_blank">
+          <!-- a href="https://itunes.apple.com/jp/genre/ios-仕事効率化/id6007?mt=8" target="_blank" -->
             <img src="/img/app_btn_s2.jpg" style="position: absolute; opacity: 0;">
             <img src="/img/app_btn.jpg" width="150" alt="Download on the App Store">
-          </a>
+          <!--/a-->
           <!-- <img src="/img/app_qr.jpg" width="75" height="75" alt="" class="pr64"> -->
-          <a href="https://play.google.com/store/apps" target="_blank">
+          <a href="https://play.google.com/store/apps/details?id=jp.co.whitenet.qauth" target="_blank">
             <img src="/img/g_btn_s2.jpg" style="position: absolute; opacity: 0;">
             <img src="/img/g_btn.jpg" width="150" alt="GET IN ON Google Play">
           </a>
